@@ -1,64 +1,98 @@
 
 
 #include "windows.h"
+#include <iostream>
+
+#include "src/painter/BersenhamLine.h"
+#include "src/painter/Painter.h"
 
 
-static COLORREF color = RGB(0, 0, 0);
+Painter *currentPainter = nullptr;
+COLORREF currentColor = RGB(0, 0, 0);
 
 
 using namespace std;
 
 
 
+HMENU CreatePainterMenu() {
+    HMENU hMenuBar = CreateMenu();
+
+
+    HMENU hColorMenu = CreateMenu();
+    AppendMenu(hColorMenu, MF_STRING, 101, "Red");
+    AppendMenu(hColorMenu, MF_STRING, 102, "Green");
+    AppendMenu(hColorMenu, MF_STRING, 103, "Blue");
+    AppendMenu(hColorMenu, MF_STRING, 104, "Black");
+
+
+    HMENU hShapeMenu = CreateMenu();
+    AppendMenu(hShapeMenu, MF_STRING, 201, "Line");
+    AppendMenu(hShapeMenu, MF_STRING, 202, "Circle");
+    AppendMenu(hShapeMenu, MF_STRING, 203, "Bezier Curve");
+
+    AppendMenu(hMenuBar, MF_POPUP, (UINT_PTR)hColorMenu, "Color");
+    AppendMenu(hMenuBar, MF_POPUP, (UINT_PTR)hShapeMenu, "Shape");
+
+    return hMenuBar;
+}
+
+
 LRESULT WINAPI WndProc(HWND hwnd, UINT m, WPARAM wp, LPARAM lp) {
     switch (m) {
-    case WM_CREATE:
-
+    case WM_CREATE: {
+        HMENU hMenu = CreatePainterMenu();
+        SetMenu(hwnd, hMenu);
+    }
         break;
-    case WM_COMMAND:
-
-        break;
-    case WM_LBUTTONDOWN:
-        {
-            HDC hdc = GetDC(hwnd);
-            int x = LOWORD(lp);
-            int y = HIWORD(lp);
-
+    case WM_COMMAND: {
+        switch (LOWORD(wp)) {
+            // 🎨 Color choices
+            case 101: currentColor = RGB(255, 0, 0); break; // Red
+            case 102: currentColor = RGB(0, 255, 0); break; // Green
+            case 103: currentColor = RGB(0, 0, 255); break; // Blue
+            case 104: currentColor = RGB(0, 0, 0); break;   // Black
 
 
-            ReleaseDC(hwnd, hdc);
+            case 201: {
+                delete currentPainter;
+                currentPainter = new  BersenhamLine();
+            }
+
+            break;
+
         }
+
+
+        if (currentPainter)
+            currentPainter->setColor(currentColor);
+    }
+
         break;
-    case WM_LBUTTONUP:
-        {
-            HDC hdc = GetDC(hwnd);
-            int x = LOWORD(lp);
-            int y = HIWORD(lp);
-
-
-            ReleaseDC(hwnd, hdc);
-        }
+        case WM_LBUTTONDOWN:
+            if (currentPainter) {
+                HDC hdc = GetDC(hwnd);
+                currentPainter->onMouseLeftDown(hdc, LOWORD(lp), HIWORD(lp));
+                ReleaseDC(hwnd, hdc);
+            }
         break;
-    case WM_RBUTTONDOWN:
-        {
-            HDC hdc = GetDC(hwnd);
-            int x = LOWORD(lp);
-            int y = HIWORD(lp);
 
-
-
-            ReleaseDC(hwnd, hdc);
-        }
+        case WM_LBUTTONUP:
+            if (currentPainter) {
+                HDC hdc = GetDC(hwnd);
+                currentPainter->onMouseLeftUp(hdc, LOWORD(lp), HIWORD(lp));
+                ReleaseDC(hwnd, hdc);
+            }
         break;
-    case WM_RBUTTONUP:
-        {
-            HDC hdc = GetDC(hwnd);
-            int x = LOWORD(lp);
-            int y = HIWORD(lp);
 
-            ReleaseDC(hwnd, hdc);
-        }
+        case WM_RBUTTONDOWN:
+            if (currentPainter) {
+                HDC hdc = GetDC(hwnd);
+                currentPainter->onMouseRightDown(hdc, LOWORD(lp), HIWORD(lp));
+                ReleaseDC(hwnd, hdc);
+            }
         break;
+
     case WM_CLOSE:
         DestroyWindow(hwnd);
         break;
@@ -76,6 +110,13 @@ LRESULT WINAPI WndProc(HWND hwnd, UINT m, WPARAM wp, LPARAM lp) {
 
 int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow)
 {
+    AllocConsole();
+
+    FILE* fp;
+    freopen_s(&fp, "CONOUT$", "w", stdout);
+    freopen_s(&fp, "CONIN$", "r", stdin);
+
+    std::cout << "Console attached!" << std::endl;
 
     WNDCLASS wc = {0};
     wc.lpfnWndProc   = WndProc;
