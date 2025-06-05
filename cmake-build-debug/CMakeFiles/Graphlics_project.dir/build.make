@@ -96,24 +96,10 @@ CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\habib\CLionProjects\Graphics_Project\src\painter\Painter.cpp -o CMakeFiles\Graphlics_project.dir\src\painter\Painter.cpp.s
 
-CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj: CMakeFiles/Graphlics_project.dir/flags.make
-CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj: C:/Users/habib/CLionProjects/Graphics_Project/src/shapes/lines.cpp
-CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj: CMakeFiles/Graphlics_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\habib\CLionProjects\Graphics_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj -MF CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.obj.d -o CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.obj -c C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\lines.cpp
-
-CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\lines.cpp > CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.i
-
-CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\lines.cpp -o CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.s
-
 CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj: CMakeFiles/Graphlics_project.dir/flags.make
 CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj: C:/Users/habib/CLionProjects/Graphics_Project/src/shapes/circles.cpp
 CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj: CMakeFiles/Graphlics_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\habib\CLionProjects\Graphics_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\habib\CLionProjects\Graphics_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj -MF CMakeFiles\Graphlics_project.dir\src\shapes\circles.cpp.obj.d -o CMakeFiles\Graphlics_project.dir\src\shapes\circles.cpp.obj -c C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\circles.cpp
 
 CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.i: cmake_force
@@ -124,25 +110,55 @@ CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\circles.cpp -o CMakeFiles\Graphlics_project.dir\src\shapes\circles.cpp.s
 
+CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj: CMakeFiles/Graphlics_project.dir/flags.make
+CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj: C:/Users/habib/CLionProjects/Graphics_Project/src/shapes/lines.cpp
+CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj: CMakeFiles/Graphlics_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\habib\CLionProjects\Graphics_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj -MF CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.obj.d -o CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.obj -c C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\lines.cpp
+
+CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\lines.cpp > CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.i
+
+CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\habib\CLionProjects\Graphics_Project\src\shapes\lines.cpp -o CMakeFiles\Graphlics_project.dir\src\shapes\lines.cpp.s
+
+CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj: CMakeFiles/Graphlics_project.dir/flags.make
+CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj: C:/Users/habib/CLionProjects/Graphics_Project/src/painter/BersenhamLine.cpp
+CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj: CMakeFiles/Graphlics_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\habib\CLionProjects\Graphics_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj -MF CMakeFiles\Graphlics_project.dir\src\painter\BersenhamLine.cpp.obj.d -o CMakeFiles\Graphlics_project.dir\src\painter\BersenhamLine.cpp.obj -c C:\Users\habib\CLionProjects\Graphics_Project\src\painter\BersenhamLine.cpp
+
+CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\habib\CLionProjects\Graphics_Project\src\painter\BersenhamLine.cpp > CMakeFiles\Graphlics_project.dir\src\painter\BersenhamLine.cpp.i
+
+CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\habib\CLionProjects\Graphics_Project\src\painter\BersenhamLine.cpp -o CMakeFiles\Graphlics_project.dir\src\painter\BersenhamLine.cpp.s
+
 # Object files for target Graphlics_project
 Graphlics_project_OBJECTS = \
 "CMakeFiles/Graphlics_project.dir/main.cpp.obj" \
 "CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj" \
+"CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj" \
 "CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj" \
-"CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj"
+"CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj"
 
 # External object files for target Graphlics_project
 Graphlics_project_EXTERNAL_OBJECTS =
 
 Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/main.cpp.obj
 Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj
-Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj
 Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj
+Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/src/shapes/lines.cpp.obj
+Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj
 Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/build.make
 Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/linkLibs.rsp
 Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/objects1.rsp
 Graphlics_project.exe: CMakeFiles/Graphlics_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\habib\CLionProjects\Graphics_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Graphlics_project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\habib\CLionProjects\Graphics_Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Graphlics_project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Graphlics_project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphlics_project.dir\build.make CMakeFiles/Graphlics_project.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/painter/BersenhamLine.obj: src/painter/BersenhamLine.cpp.obj
+.PHONY : src/painter/BersenhamLine.obj
+
+# target to build an object file
+src/painter/BersenhamLine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphlics_project.dir\build.make CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj
+.PHONY : src/painter/BersenhamLine.cpp.obj
+
+src/painter/BersenhamLine.i: src/painter/BersenhamLine.cpp.i
+.PHONY : src/painter/BersenhamLine.i
+
+# target to preprocess a source file
+src/painter/BersenhamLine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphlics_project.dir\build.make CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.i
+.PHONY : src/painter/BersenhamLine.cpp.i
+
+src/painter/BersenhamLine.s: src/painter/BersenhamLine.cpp.s
+.PHONY : src/painter/BersenhamLine.s
+
+# target to generate assembly for a file
+src/painter/BersenhamLine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Graphlics_project.dir\build.make CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.s
+.PHONY : src/painter/BersenhamLine.cpp.s
+
 src/painter/Painter.obj: src/painter/Painter.cpp.obj
 .PHONY : src/painter/Painter.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/painter/BersenhamLine.obj
+	@echo ... src/painter/BersenhamLine.i
+	@echo ... src/painter/BersenhamLine.s
 	@echo ... src/painter/Painter.obj
 	@echo ... src/painter/Painter.i
 	@echo ... src/painter/Painter.s

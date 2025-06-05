@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Graphlics_project.dir/main.cpp.obj"
   "CMakeFiles/Graphlics_project.dir/main.cpp.obj.d"
+  "CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj"
+  "CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj.d"
   "CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj"
   "CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj.d"
   "CMakeFiles/Graphlics_project.dir/src/shapes/circles.cpp.obj"

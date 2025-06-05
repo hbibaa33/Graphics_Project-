@@ -85,6 +85,12 @@
 		<Unit filename="C:/Users/habib/CLionProjects/Graphics_Project/main.cpp">
 			<Option target="Graphlics_project"/>
 		</Unit>
+		<Unit filename="C:/Users/habib/CLionProjects/Graphics_Project/src/painter/BersenhamLine.cpp">
+			<Option target="Graphlics_project"/>
+		</Unit>
+		<Unit filename="C:/Users/habib/CLionProjects/Graphics_Project/src/painter/BersenhamLine.h">
+			<Option target="Graphlics_project"/>
+		</Unit>
 		<Unit filename="C:/Users/habib/CLionProjects/Graphics_Project/src/painter/Painter.cpp">
 			<Option target="Graphlics_project"/>
 		</Unit>

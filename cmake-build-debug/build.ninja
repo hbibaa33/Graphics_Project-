@@ -61,6 +61,12 @@ build CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj: CXX_COMPILER
   OBJECT_DIR = CMakeFiles\Graphlics_project.dir
   OBJECT_FILE_DIR = CMakeFiles\Graphlics_project.dir\src\painter
 
+build CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj: CXX_COMPILER__Graphlics_project_unscanned_Debug C$:/Users/LENOVO/CLionProjects/Graphlics_project/src/painter/BersenhamLine.cpp || cmake_object_order_depends_target_Graphlics_project
+  DEP_FILE = CMakeFiles\Graphlics_project.dir\src\painter\BersenhamLine.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Graphlics_project.dir
+  OBJECT_FILE_DIR = CMakeFiles\Graphlics_project.dir\src\painter
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Graphlics_project
@@ -69,7 +75,7 @@ build CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj: CXX_COMPILER
 #############################################
 # Link the executable Graphlics_project.exe
 
-build Graphlics_project.exe: CXX_EXECUTABLE_LINKER__Graphlics_project_Debug CMakeFiles/Graphlics_project.dir/main.cpp.obj CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj
+build Graphlics_project.exe: CXX_EXECUTABLE_LINKER__Graphlics_project_Debug CMakeFiles/Graphlics_project.dir/main.cpp.obj CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Graphlics_project.dir
