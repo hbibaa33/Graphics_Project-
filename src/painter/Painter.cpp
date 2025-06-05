@@ -4,6 +4,6 @@
 
 #include "Painter.h"
 
-void Painter::onMouseDown() {
-
-}
+// void Painter::onMouseDown() {
+//
+// }
