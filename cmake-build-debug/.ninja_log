@@ -1,0 +1,10 @@
+# ninja log v6
+11	1394	7708563916507821	CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj	54b43e64978b44e2
+7	1718	7708572827414039	CMakeFiles/Graphlics_project.dir/main.cpp.obj	dad93252e3bc1886
+1719	1802	7708572844526515	Graphlics_project.exe	e19f6416bb8529df
+9	1570	7708596065800937	CMakeFiles/Graphlics_project.dir/src/painter/Painter.cpp.obj	54b43e64978b44e2
+5	2126	7708596065751414	CMakeFiles/Graphlics_project.dir/main.cpp.obj	dad93252e3bc1886
+14	2136	7708596065849388	CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj	56182de0dd5b5f20
+9	1999	7708597291381492	CMakeFiles/Graphlics_project.dir/main.cpp.obj	dad93252e3bc1886
+15	2012	7708597291434116	CMakeFiles/Graphlics_project.dir/src/painter/BersenhamLine.cpp.obj	56182de0dd5b5f20
+2012	2106	7708597311396158	Graphlics_project.exe	17f10b4e8042056c
